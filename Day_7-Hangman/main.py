@@ -7,9 +7,10 @@ lives = 6
 print(logo)
 chosen_word = random.choice(word_list)
 # print(chosen_word)
-
-placeholder = len(chosen_word) * "_"
+number_of_letters = len(chosen_word)
+placeholder = number_of_letters * "_"
 print("Word to guess: " + placeholder)
+print(f"Number of letters: {number_of_letters}")
 
 game_over = False
 correct_letters = []
@@ -32,6 +33,7 @@ while not game_over:
             display += "_"
 
     print("Word to guess: " + display)
+    print(f"Number of letters: {number_of_letters}")
     if len(guessed_letters) > 0:
         print(f"Previous guesses: {guessed_letters}")
 
