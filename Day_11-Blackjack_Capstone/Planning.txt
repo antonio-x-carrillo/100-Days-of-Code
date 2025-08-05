@@ -1,0 +1,12 @@
+# 1 - Import Art assets, Define cards & emojis
+# 2 - Write User Prompts
+# 3 - Randomly select & store cards
+# 4 - Add totals & display outputs
+# 5 - Check for natural black Jack
+# 6 - Prompt for additional user inputs & check for user bust
+# 7 - Check for 11 to 1 conversion
+# 8 - Check for computer total under 17
+# 9 - Check for computer bust
+# 10 - Check for ties
+# 11 - Check for player losing
+# 12 - Prompt user for new game
